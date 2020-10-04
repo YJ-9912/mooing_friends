@@ -1,0 +1,112 @@
+@-webkit-keyframes gray {
+	0% {transform: rotate(0deg) scale(1, 1) ;}
+	50% {transform: rotate(360deg) scale(2, 2) ;}
+	100% {transform: rotate(720deg) scale(1, 1) ;}
+}
+
+
+
+.box1 {display: flex; width: 1500px; height: 400px;
+		align-items: center; /*border: 1px solid black;*/
+		margin-left: 230px; margin-top: 60px;}
+
+.box2 {display: flex; width: 1500px; height: 400px;
+		align-items: center; /*border: 1px solid red;*/
+		margin-left: 230px; margin-top: 0px;}
+		
+
+
+
+.orange {background-size: cover;
+	width: 300px; height: 300px; margin-left: 140px;
+	background-image: url("who.png");
+	/*animation-name: gray;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;*/
+
+
+	transition-property: all;
+	transition-duration: 0.8s;
+}
+
+
+.orange:hover {background-image: url("orange.png");
+			transform: rotate(360deg);}
+
+
+
+
+.pink {background-size: cover;
+	width: 300px; height: 300px; margin-left: 140px;
+	background-image: url("who.png");
+
+	transition-property: all;
+	transition-duration: 0.8s;
+
+}
+
+
+.pink:hover {background-image: url("pink.png");
+			transform: rotate(-360deg);}
+
+
+
+
+.purple {background-size: cover;
+	width: 300px; height: 300px; margin-left: 140px;
+	background-image: url("who.png");
+
+	transition-property: all;
+	transition-duration: 0.8s;
+}
+
+
+.purple:hover {background-image: url("purple.png");
+			transform: rotate(360deg);}
+
+
+
+
+.yellow {background-size: cover;
+	width: 300px; height: 300px; margin-left: 140px;
+	background-image: url("who.png");
+
+	transition-property: all;
+	transition-duration: 0.8s;
+}
+
+
+.yellow:hover {background-image: url("yellow.png");
+			transform: rotate(-360deg);}
+
+
+
+
+.blue {background-size: cover;
+	width: 300px; height: 300px; margin-left: 140px;
+	background-image: url("who.png");
+
+	transition-property: all;
+	transition-duration: 0.8s;
+}
+
+
+.blue:hover {background-image: url("blue.png");
+			transform: rotate(360deg);}
+
+
+
+
+.green {background-size: cover;
+	width: 300px; height: 300px; margin-left: 140px;
+	background-image: url("who.png");
+
+	transition-property: all;
+	transition-duration: 0.8s;
+}
+
+
+.green:hover {background-image: url("green.png");
+			transform: rotate(-360deg);}
